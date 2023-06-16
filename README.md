@@ -27,12 +27,11 @@ https://github.com/wahabtlais/blogify.git
 
 3. Import the database:
 
-- Create a MYSQL database named `blogify`.
-- Import the SQL file provided in the `database` directory.
+- Import the SQL file provided in the `mysql` directory.
 
 4. Configure the database connection:
 
-- Open the `config.php` file located in the `includes` directory.
+- Open the `constants.php` file located in the `config` directory.
 - Update the database credentials (hostname, username, password) to match your local environment.
 
 5. Start your web server and access the website through your preferred browser:
