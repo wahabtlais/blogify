@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Generation Time: Jun 16, 2023 at 09:45 AM
+-- Generation Time: Jun 16, 2023 at 10:22 AM
 -- Server version: 5.7.36
 -- PHP Version: 7.4.26
 
@@ -108,7 +108,7 @@ CREATE TABLE IF NOT EXISTS `users` (
   `avatar` varchar(255) NOT NULL,
   `is_admin` tinyint(1) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=11 DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=12 DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `users`
@@ -117,7 +117,8 @@ CREATE TABLE IF NOT EXISTS `users` (
 INSERT INTO `users` (`id`, `firstname`, `lastname`, `username`, `email`, `password`, `avatar`, `is_admin`) VALUES
 (5, 'User', '1', 'user1', 'user1@gmail.com', '$2y$10$kwQVjXqjCD/XX5fQvboB6uZoaTWH8BFt/kIpvwUZu9YI2mbAuZsBG', '1684661292photo_2023-05-21_12-23-10.jpg', 0),
 (7, 'Wahab', 'Tlais', 'wahabtlais', 'wahabtlais@gmail.com', '$2y$10$PelIc4xwr1MNPeZodPpiIeosfgcnOC3AMJBJ0tZcMOFSAaxeqAUI.', '1684662333photo_2022-08-29_16-51-53.jpg', 1),
-(9, 'User', '2', 'user2', 'user2@gmail.com', '$2y$10$fqx8pYyfqlEmWkVPwCHfV.Fh2OhJfMX2n/zkRJkJ3.6sVwwQhQZG6', '1684663105photo_2023-05-21_12-23-12.jpg', 0);
+(9, 'User', '2', 'user2', 'user2@gmail.com', '$2y$10$fqx8pYyfqlEmWkVPwCHfV.Fh2OhJfMX2n/zkRJkJ3.6sVwwQhQZG6', '1684663105photo_2023-05-21_12-23-12.jpg', 0),
+(11, 'admin', 'admin', 'admin', 'admin@mail.com', 'admin12345', '1684661292photo_2023-05-21_12-23-10.jpg', 1);
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
